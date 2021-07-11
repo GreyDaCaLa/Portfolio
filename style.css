@@ -1,0 +1,51 @@
+/*comment example*/
+
+body {
+    background-color: #ecce8e;
+
+}
+
+h1, h2, h3, h4 {
+    color: #ba5624;
+}
+
+/*#mainpic {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+*/
+img {
+    float:left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .grid-container > div > p {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .grid-container > div > dl {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .grid-container > div > ul {
+    text-align: left;
+    font-size: 30px;
+  }
